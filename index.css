@@ -1,5 +1,9 @@
 body {
   display: flex;
+  background-image: url("backround.webp");
+  background-size: cover; /* scales the image to cover the entire body */
+  background-position: center; /* centers the image within the body */
+  background-color: #ccc; /* fallback color in case image fails to load */
 }
 
 #controls {
